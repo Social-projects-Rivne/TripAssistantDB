@@ -1,11 +1,11 @@
 CREATE TABLE public.users
 (
     id_user serial NOT NULL,
-    name "char" NOT NULL,
-    login "char" NOT NULL,
+    name char(50) NOT NULL,
+    login char(20) NOT NULL,
     password_hash text NOT NULL,
-    token "char",
-    email "char" NOT NULL,
+    token char(50),
+    email char(50) NOT NULL,
     home_point json,
     drive_hours_per_day double precision,
     drive_stop_period double precision,
