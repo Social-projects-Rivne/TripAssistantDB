@@ -8,7 +8,6 @@ CREATE TABLE public.users
     email "char" NOT NULL,
     home_point json,
     drive_hours_per_day double precision,
-    default_car_id integer,
     drive_stop_period double precision,
     eat_stop_period double precision,
     status boolean,

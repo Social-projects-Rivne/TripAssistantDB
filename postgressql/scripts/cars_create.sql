@@ -3,6 +3,7 @@ CREATE TABLE cars (
 	user_id INT NOT NULL,
 	name_car CHAR(30),
 	tank_volume INT,
+	default_car BOOLEAN,
 	CONSTRAINT tank_volume CHECK (tank_volume >= 0),
 	max_passengers_count INT,
 	CONSTRAINT max_passengers_count CHECK (max_passengers_count >= 0),
