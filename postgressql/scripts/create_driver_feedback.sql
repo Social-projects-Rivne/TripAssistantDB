@@ -10,5 +10,5 @@ CREATE TABLE "driver_feedback" (
   "rating_total" INTEGER NOT NULL DEFAULT 5,
   "status" feedback_status NOT NULL DEFAULT 'new',
   "feedback" CHAR(255) NOT NULL,
-  PRIMARY KEY ("driver_id", "passeger_id", "route_id")
+  PRIMARY KEY ("driver_id", "passenger_id", "route_id")
 );
