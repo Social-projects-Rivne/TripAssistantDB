@@ -1,5 +1,5 @@
 CREATE TABLE cars (
-	id_cars INT PRIMARY KEY NOT NULL,
+	id_cars SERIAL PRIMARY KEY NOT NULL,
 	user_id INT NOT NULL,
 	name_car CHAR(30),
 	tank_volume INT,
