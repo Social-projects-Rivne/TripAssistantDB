@@ -1,5 +1,4 @@
 INSERT INTO routes_passenger (id_user, id_route, type)
-    )
     VALUES(
         1, 1, driver
     ),
