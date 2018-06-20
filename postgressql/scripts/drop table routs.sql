@@ -1,1 +1,1 @@
-DROP TABLE public.routes;
+DROP TABLE routes;

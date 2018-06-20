@@ -1,8 +1,4 @@
--- Table: public.routs
-
--- DROP TABLE public.routs;
-
-CREATE TABLE public.routs
+CREATE TABLE routs
 (
   id_route integer PRIMARY KEY NOT NULL,
   car_id integer,
@@ -17,9 +13,4 @@ CREATE TABLE public.routs
   date_start timestamp without time zone[],
   description text,
   route_length numeric
-)
-WITH (
-  OIDS=FALSE
 );
-ALTER TABLE public.routs
-  OWNER TO postgres;

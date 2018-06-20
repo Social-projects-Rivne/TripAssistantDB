@@ -14,6 +14,3 @@ CREATE TABLE public.users
     avatar bytea,
     PRIMARY KEY (id_user)
 );
-
-ALTER TABLE public.users
-    OWNER to postgres;
