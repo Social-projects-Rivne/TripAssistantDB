@@ -1,4 +1,4 @@
-CREATE TABLE public.users
+CREATE TABLE users
 (
     id_user serial NOT NULL,
     name char(50) NOT NULL,
@@ -14,6 +14,3 @@ CREATE TABLE public.users
     avatar bytea,
     PRIMARY KEY (id_user)
 );
-
-ALTER TABLE public.users
-    OWNER to postgres;

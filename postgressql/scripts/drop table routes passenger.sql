@@ -1,1 +1,1 @@
-DROP TABLE public.routes_passenger;
+DROP TABLE routes_passenger;

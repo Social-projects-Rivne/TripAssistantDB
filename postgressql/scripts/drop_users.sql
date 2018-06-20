@@ -1,1 +1,1 @@
-DROP TABLE public.users;
+DROP TABLE users;

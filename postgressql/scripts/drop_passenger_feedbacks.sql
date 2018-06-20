@@ -1,2 +1,2 @@
-DROP TABLE public.passenger_feedbacks;
+DROP TABLE passenger_feedbacks;
 DROP TYPE feedback_status;
