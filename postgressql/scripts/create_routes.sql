@@ -1,6 +1,6 @@
-CREATE TABLE routs
+CREATE TABLE routes
 (
-  id_route integer PRIMARY KEY NOT NULL,
+  id_route SERIAL PRIMARY KEY NOT NULL,
   car_id integer,
   status boolean,
   baggage_volume integer,

@@ -127,4 +127,4 @@ INSERT INTO users (name, login, password_hash, token, email, home_point, drive_h
 	1.1,
 	0.1,
 	false
-)
+);
