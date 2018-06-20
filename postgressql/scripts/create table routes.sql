@@ -1,6 +1,6 @@
 CREATE TABLE routes
 (
-  id_route SERIAL PRIMARY KEY NOT NULL,
+  id_route integer PRIMARY KEY NOT NULL,
   car_id integer,
   status boolean,
   baggage_volume integer,
@@ -13,4 +13,5 @@ CREATE TABLE routes
   date_start timestamp without time zone[],
   description text,
   route_length numeric
-);
+)
+
